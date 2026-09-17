@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first css</title>
+  </head>
+<style>
+    .form{
+        background-color: rgba(0, 0, 0, 0.295);
+        height: 400px;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 160px;
+        border-radius: 10px;
+
+         
+    }
+
+    .formcontent{
+        margin-left: 5%;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+
+    }
+
+    .input{
+        height: 30px;
+        width: 56%;
+        border-radius: 10px;
+        border-top: rgba(0, 0, 0, 0.295);
+        border-left: rgba(0, 0, 0, 0.295);
+        border-right: rgba(0, 0, 0, 0.295);
+        border-bottom: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .button{
+       margin-left: 28%; 
+       margin-top: 30px;
+       border-radius: 10px;
+       height: 50px;
+       width: 40%;
+
+       
+    }
+</style>
+  <body>
+
+        <form class="form">
+            <br>
+            <h3 style="font-family: 'Courier New', Courier, monospace; margin-left: 10%;">your labour market form</h1>
+            <div class="formcontent">
+                <label>your name:</label>
+                <input type="text" class="input"/>
+            </div>
+            <div class="formcontent">
+                <label>your age: </label>
+                <input type="date" class="input"/>
+            </div>
+            <div class="formcontent">
+               <label> your class: </label>
+                <input type="text" class="input"/>
+            </div>
+            <div class="formcontent">
+               <label> password: </label>
+                <input type="password" class="input"/>
+            </div>
+                <div style="display: flex; margin-left: 8%;">
+                    <input type="checkbox"><p style="font-size: 10px; font-weight: 10px; color: rgb(102, 100, 100);">do you agree to follow all instructions?</p>
+                </div>
+                <div style="display: flex; margin-left: 8%;">
+                    <input type="checkbox"><p style="font-size: 10px; font-weight: 10px; color: rgb(102, 100, 100);">do you agree on our terms and condition?</p>
+                </div>
+                <div style="display: flex; margin-left: 8%;">
+                    <input type="checkbox"><p style="font-size: 10px; font-weight: 10px; color: rgb(102, 100, 100);">do you accept yo make all payment when required?</p>
+                </div>
+                
+                
+           <button class="button" type="submit"><a style="text-decoration: none; text-decoration: none; color: black;" href="https://yourlabourmarket.seofidelis01.workers.dev">signup</a></button>
+
+        </form>
+
+
+  </body>
+</html>
+
